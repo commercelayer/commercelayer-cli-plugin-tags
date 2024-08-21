@@ -1,3 +1,10 @@
+# [2.1.0-beta.2](https://github.com/commercelayer/commercelayer-cli-plugin-tags/compare/v2.1.0-beta.1...v2.1.0-beta.2) (2024-08-21)
+
+
+### Bug Fixes
+
+* update readme ([77d7ccb](https://github.com/commercelayer/commercelayer-cli-plugin-tags/commit/77d7ccb91834b39214b4a0a622668d14f89d8067))
+
 # [2.1.0-beta.1](https://github.com/commercelayer/commercelayer-cli-plugin-tags/compare/v2.0.1...v2.1.0-beta.1) (2024-08-20)
 
 
