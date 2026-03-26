@@ -1,3 +1,122 @@
+## [2.2.2](https://github.com/commercelayer/commercelayer-cli-plugin-tags/compare/v2.2.1...v2.2.2) (2026-03-24)
+
+
+### Bug Fixes
+
+* update dependencies ([8753df5](https://github.com/commercelayer/commercelayer-cli-plugin-tags/commit/8753df5ff5d58d879d82402c2124f0f715b2d4c2))
+
+## [2.2.1](https://github.com/commercelayer/commercelayer-cli-plugin-tags/compare/v2.2.0...v2.2.1) (2026-03-24)
+
+
+### Bug Fixes
+
+* fi dependencies ([e7ea1f6](https://github.com/commercelayer/commercelayer-cli-plugin-tags/commit/e7ea1f620fcb1d2c802d6d03508e31f6252a2759))
+
+# [2.2.0](https://github.com/commercelayer/commercelayer-cli-plugin-tags/compare/v2.1.13...v2.2.0) (2026-03-24)
+
+
+### Features
+
+* add biome ([9b20268](https://github.com/commercelayer/commercelayer-cli-plugin-tags/commit/9b20268c2da1057393d8ef224ffbd3ae60491539))
+
+## [2.1.13](https://github.com/commercelayer/commercelayer-cli-plugin-tags/compare/v2.1.12...v2.1.13) (2026-03-13)
+
+
+### Bug Fixes
+
+* update dependencies ([e92a668](https://github.com/commercelayer/commercelayer-cli-plugin-tags/commit/e92a668a3892da79d183a1c59614c0713fc93513))
+
+## [2.1.12](https://github.com/commercelayer/commercelayer-cli-plugin-tags/compare/v2.1.11...v2.1.12) (2026-03-10)
+
+
+### Bug Fixes
+
+* update dependencies ([e3dab75](https://github.com/commercelayer/commercelayer-cli-plugin-tags/commit/e3dab7545f726b0bdb35a5c0d0bcbfdd3f16af40))
+
+## [2.1.11](https://github.com/commercelayer/commercelayer-cli-plugin-tags/compare/v2.1.10...v2.1.11) (2026-03-02)
+
+
+### Bug Fixes
+
+* updatecli-core to latest version ([f6984ad](https://github.com/commercelayer/commercelayer-cli-plugin-tags/commit/f6984adb8770ded1cb4557052408ddb9a0439a5a))
+
+## [2.1.10](https://github.com/commercelayer/commercelayer-cli-plugin-tags/compare/v2.1.9...v2.1.10) (2026-03-02)
+
+
+### Bug Fixes
+
+* update dependencies ([0fba1e1](https://github.com/commercelayer/commercelayer-cli-plugin-tags/commit/0fba1e1cdc0fe5cc25e4eace10a2dc3fffb6b4ea))
+
+## [2.1.9](https://github.com/commercelayer/commercelayer-cli-plugin-tags/compare/v2.1.8...v2.1.9) (2025-12-05)
+
+
+### Bug Fixes
+
+* update dependencies ([171130a](https://github.com/commercelayer/commercelayer-cli-plugin-tags/commit/171130aea0c090c8528fe0503b8fd3819c605c75))
+
+## [2.1.8](https://github.com/commercelayer/commercelayer-cli-plugin-tags/compare/v2.1.7...v2.1.8) (2025-07-23)
+
+
+### Bug Fixes
+
+* fix codeql action ([1545e72](https://github.com/commercelayer/commercelayer-cli-plugin-tags/commit/1545e72980dd37f2e1afd7ccaf48961103c9ed57))
+
+## [2.1.7](https://github.com/commercelayer/commercelayer-cli-plugin-tags/compare/v2.1.6...v2.1.7) (2025-07-23)
+
+
+### Bug Fixes
+
+* fix release script ([e6e348d](https://github.com/commercelayer/commercelayer-cli-plugin-tags/commit/e6e348d8e9348a0d308ac10d74b3ae1910ddd464))
+
+## [2.1.6](https://github.com/commercelayer/commercelayer-cli-plugin-tags/compare/v2.1.5...v2.1.6) (2025-07-23)
+
+
+### Bug Fixes
+
+* fix vulnerability issues ([189f059](https://github.com/commercelayer/commercelayer-cli-plugin-tags/commit/189f0590418528dfbf85e25b9927748a70973eb3))
+
+## [2.1.5](https://github.com/commercelayer/commercelayer-cli-plugin-tags/compare/v2.1.4...v2.1.5) (2025-05-06)
+
+
+### Bug Fixes
+
+* update dependencies ([a6b01ed](https://github.com/commercelayer/commercelayer-cli-plugin-tags/commit/a6b01ed612295cd7be0a7078893c57c70d6f9889))
+
+## [2.1.4](https://github.com/commercelayer/commercelayer-cli-plugin-tags/compare/v2.1.3...v2.1.4) (2025-04-17)
+
+
+### Bug Fixes
+
+* fix creation if inexistent tags ([5bf7810](https://github.com/commercelayer/commercelayer-cli-plugin-tags/commit/5bf7810f1b8ab519df3d866a9e744393bfe86efc))
+
+## [2.1.3](https://github.com/commercelayer/commercelayer-cli-plugin-tags/compare/v2.1.2...v2.1.3) (2025-01-31)
+
+
+### Bug Fixes
+
+* update readme and dependencies ([2ee9922](https://github.com/commercelayer/commercelayer-cli-plugin-tags/commit/2ee9922a87f50f68578472c04de42829b1a65d98))
+
+## [2.1.2](https://github.com/commercelayer/commercelayer-cli-plugin-tags/compare/v2.1.1...v2.1.2) (2024-12-06)
+
+
+### Bug Fixes
+
+* fix security issue ([ba2d9e5](https://github.com/commercelayer/commercelayer-cli-plugin-tags/commit/ba2d9e5d48719f4e340ae2ee8c6a533f2942fdfa))
+
+## [2.1.1](https://github.com/commercelayer/commercelayer-cli-plugin-tags/compare/v2.1.0...v2.1.1) (2024-10-21)
+
+
+### Bug Fixes
+
+* fix security issue ([2f632dc](https://github.com/commercelayer/commercelayer-cli-plugin-tags/commit/2f632dcadc3c24210f48c89a1a4b46cf99c31906))
+
+# [2.1.0](https://github.com/commercelayer/commercelayer-cli-plugin-tags/compare/v2.0.1...v2.1.0) (2024-08-23)
+
+
+### Features
+
+* remove oclif ux ([1f5f006](https://github.com/commercelayer/commercelayer-cli-plugin-tags/commit/1f5f0068a933220f71192383d20070030a62602a))
+
 ## [2.0.1](https://github.com/commercelayer/commercelayer-cli-plugin-tags/compare/v2.0.0...v2.0.1) (2024-08-20)
 
 
