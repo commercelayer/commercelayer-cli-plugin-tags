@@ -1,5 +1,4 @@
 import { clColor, clOutput } from '@commercelayer/cli-core'
-import type { CommandError } from '@oclif/core/lib/interfaces'
 import Table from 'cli-table3'
 import { BaseIdCommand } from '../../base'
 
@@ -55,7 +54,7 @@ export default class TagsDetails extends BaseIdCommand {
       return tag
 
     } catch (error) {
-      this.handleError(error as CommandError, flags, idName)
+      this.handleError(error, flags, idName)
     }
 
   }

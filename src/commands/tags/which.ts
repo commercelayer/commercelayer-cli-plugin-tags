@@ -1,6 +1,5 @@
 import { clApi, clColor, clConfig, clOutput, clText, clUtil } from '@commercelayer/cli-core'
 import type { ApiResource, CommerceLayerClient, ListResponse, QueryPageSize, QueryParamsList, Tag, TaggableResource } from '@commercelayer/sdk'
-import type { CommandError } from '@oclif/core/lib/interfaces'
 import Table from 'cli-table3'
 import { BaseIdCommand, cliux, Flags } from '../../base'
 
@@ -133,7 +132,7 @@ export default class TagsWhich extends BaseIdCommand {
 			return tableData
 
 		} catch (error) {
-			this.handleError(error as CommandError, flags)
+			this.handleError(error, flags)
 		}
 
 	}

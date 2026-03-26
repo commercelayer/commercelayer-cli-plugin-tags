@@ -7,7 +7,7 @@
   "repository": "commercelayer/commercelayer-cli-plugin-tags",
   "bugs": "https://github.com/commercelayer/commercelayer-cli-plugin-tags/issues",
   "engines": {
-    "node": ">=20"
+    "node": ">=22"
   },
   "files": [
     "/bin/run.*",
@@ -57,10 +57,11 @@
     "@biomejs/biome": "^2.4.9",
     "@commercelayer/cli-dev": "oclif4",
     "@oclif/plugin-help": "^6.2.40",
-    "@oclif/test": "^3.2.15",
+    "@oclif/test": "^4.1.17",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
     "@types/chai": "^5.2.3",
+    "@types/cli-progress": "^3.11.6",
     "@types/mocha": "^10.0.10",
     "@types/node": "^25.5.0",
     "chai": "^6.2.2",
@@ -73,6 +74,7 @@
   },
   "dependencies": {
     "@commercelayer/cli-core": "oclif4",
+    "@commercelayer/cli-ux": "oclif4",
     "@commercelayer/sdk": "^6.55.0",
     "@oclif/core": "^4.10.3",
     "cli-table3": "^0.6.5",

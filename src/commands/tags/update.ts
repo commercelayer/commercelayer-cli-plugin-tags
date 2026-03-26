@@ -1,6 +1,5 @@
 
 import { clColor } from '@commercelayer/cli-core'
-import type { CommandError } from '@oclif/core/lib/interfaces'
 import { BaseIdCommand, Flags } from '../../base'
 
 
@@ -48,7 +47,7 @@ export default class TagsUpdate extends BaseIdCommand {
       return updTag
 
     } catch (error) {
-      this.handleError(error as CommandError)
+      this.handleError(error)
     }
 
   }

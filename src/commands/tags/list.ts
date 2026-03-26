@@ -1,6 +1,5 @@
 import { clApi, clColor, clConfig, clOutput, clUtil } from '@commercelayer/cli-core'
 import type { QueryPageSize, QueryParamsList } from '@commercelayer/sdk'
-import type { CommandError } from '@oclif/core/lib/interfaces'
 import Table from 'cli-table3'
 import Command, { cliux, Flags } from '../../base'
 
@@ -112,7 +111,7 @@ export default class TagsList extends Command {
 			return tableData
 
 		} catch (error) {
-			this.handleError(error as CommandError, flags)
+			this.handleError(error, flags)
 		}
 
 	}
