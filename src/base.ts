@@ -1,10 +1,9 @@
 /* eslint-disable @typescript-eslint/unbound-method */
 import { clColor, clConfig, clOutput, clToken, clUpdate, clUtil } from '@commercelayer/cli-core'
-import * as cliux from '@commercelayer/cli-ux'
+import cliux from '@commercelayer/cli-ux'
 import type { CommerceLayerClient, ListResponse, Tag, TaggableResource, TaggableResourceType } from '@commercelayer/sdk'
 import commercelayer, { Bundles, BuyXPayYPromotions, CommerceLayerStatic, Coupons, Customers, ExternalPromotions, FixedAmountPromotions, FixedPricePromotions, FreeGiftPromotions, FreeShippingPromotions, GiftCards, LineItemOptions, Orders, PercentageDiscountPromotions, Promotions, Returns, Shipments, SkuOptions, Skus} from '@commercelayer/sdk'
-import { Args, Command, Flags } from '@oclif/core'
-import type { CommandError } from '@oclif/core/lib/interfaces'
+import { Args, Command, Flags, type Interfaces } from '@oclif/core'
 
 
 
@@ -59,7 +58,7 @@ export default abstract class BaseCommand extends Command {
   }
 
 
-  async catch(error: CommandError): Promise<any> {
+  async catch(error: Interfaces.CommandError): Promise<any> {
     if (error.message?.includes('quit')) this.exit()
     else return super.catch(error)
   }
@@ -101,7 +100,7 @@ export default abstract class BaseCommand extends Command {
 
 
 
-  protected handleError(error: CommandError, _flags?: any, id?: string): void {
+  protected handleError(error: unknown, _flags?: any, id?: string): void {
     if (CommerceLayerStatic.isApiError(error)) {
       if (error.status === 401) {
         const err = error.first()

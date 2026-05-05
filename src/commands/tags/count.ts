@@ -1,6 +1,5 @@
 import { clColor, clConfig } from '@commercelayer/cli-core'
 import type { ApiResource, CommerceLayerClient, TaggableResource, TaggableResourceType } from '@commercelayer/sdk'
-import type { CommandError } from '@oclif/core/lib/interfaces'
 import Table from 'cli-table3'
 import { BaseIdCommand, cliux, Flags } from '../../base'
 
@@ -99,7 +98,7 @@ export default class TagsCount extends BaseIdCommand {
       return output
 
 		} catch (error) {
-			this.handleError(error as CommandError, flags)
+			this.handleError(error, flags)
 		}
 
 	}

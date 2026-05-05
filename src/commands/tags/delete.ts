@@ -1,6 +1,5 @@
 
 import { clApi, clColor, clUtil } from '@commercelayer/cli-core'
-import type { CommandError } from '@oclif/core/lib/interfaces'
 import Command, { Flags } from '../../base'
 
 
@@ -68,7 +67,7 @@ export default class TagsDelete extends Command {
       return delTags
 
     } catch (error) {
-      this.handleError(error as CommandError)
+      this.handleError(error)
     }
 
   }
